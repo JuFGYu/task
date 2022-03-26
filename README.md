@@ -20,5 +20,21 @@ go run task.go
 ```
 curl "http://localhost:5000"
 ```
+Note: if the curl happens to give you the next error:
+```
+curl : The response content cannot be parsed because the Internet Explorer engine is not available, or 
+Internet Explorer's first-launch configuration is not complete. Specify the UseBasicParsing parameter 
+and try again. 
+At line:1 char:1
++ curl "http://localhost:5000"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   + CategoryInfo          : NotImplemented: (:) [Invoke-WebRequest], NotSupportedException
+   + FullyQualifiedErrorId : WebCmdletIEDomNotSupportedException,Microsoft.PowerShell.Commands.InvokeW  
+   ebRequestCommand
+```
+You can use this command in the terminal
+```
+Remove-item alias:curl
+```
 
 Thanks,
