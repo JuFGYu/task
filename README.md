@@ -11,12 +11,12 @@ You need to have **GO SDK** Installed.
 ```
 cd Downloads/task-main
 ```
-3. Once your are in the file location, run the file 
+3. Once your are in the file location, run the file using:
 ```
 go run task.go
 ```
 4. Windows Defender will ask you to give permission to access the network, just press "Allow Access".
-5. Open another terminal and start using the service 
+5. Open another terminal and start using the service with:
 ```
 curl "http://localhost:5000"
 ```
