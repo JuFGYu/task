@@ -2,14 +2,14 @@
 
 ## Requirements:
 
-You need to have **GO SDK** Installed
+You need to have **GO SDK** Installed.
 
 
 ## STEPS TO START THE PROJECT
 1. Open the terminal.
 2. Go to the file location using "cd", For example:
 ```
-cd Downloads/Task
+cd Downloads/task-main
 ```
 3. Once your are in the file location, run the file 
 ```
